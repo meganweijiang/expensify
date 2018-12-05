@@ -14,9 +14,6 @@ export const ExpenseList = (props) => (
           })
         )
     }
-    <p>Total: {props.expenses.reduce((total, expense) => {
-      return total + expense.amount
-    }, 0)}</p>
   </div>
 );
 
